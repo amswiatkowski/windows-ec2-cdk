@@ -8,5 +8,4 @@ class WindowsEC2Stack(Stack):
 
     def __init__(self, scope: Construct, construct_id: str, **kwargs) -> None:
         super().__init__(scope, construct_id, **kwargs)
-        windows_ec2_construct = WindowsEC2Construct(self,
-                                                    "WindowsEC2Construct")
+        windows_ec2_construct = WindowsEC2Construct(self, "WindowsEC2Construct")

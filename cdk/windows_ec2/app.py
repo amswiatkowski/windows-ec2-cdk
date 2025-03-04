@@ -13,7 +13,6 @@ windows_ec2_stack = WindowsEC2Stack(
     app,
     get_stack_name(),
     description='Complete Windows EC2 Stack',
-    env=Environment(account=os.environ.get('AWS_DEFAULT_ACCOUNT', account),
-                    region=os.environ.get('AWS_DEFAULT_REGION', region)),
+    env=Environment(account=os.environ.get('AWS_DEFAULT_ACCOUNT', account), region=os.environ.get('AWS_DEFAULT_REGION', region)),
 )
 app.synth()

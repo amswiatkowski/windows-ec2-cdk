@@ -644,14 +644,14 @@ botocore = ["botocore"]
 
 [[package]]
 name = "cachetools"
-version = "5.5.2"
+version = "8.0.3"
 description = "Extensible memoizing collections and decorators"
 optional = false
-python-versions = ">=3.7"
+python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "cachetools-5.5.2-py3-none-any.whl", hash = "sha256:d26a22bcc62eb95c3beabd9f1ee5e820d3d2704fe2967cbe350e20c8ffcd3f0a"},
-    {file = "cachetools-5.5.2.tar.gz", hash = "sha256:1a661caa9175d26759571b2e19580f9d6393969e5dfca11fdb1f947a23e640d4"},
+    {file = "cachetools-8.0.3-py3-none-any.whl", hash = "sha256:08bc12eeb7c7ab68abbe2d64d07fd7923ff532e32ff04ae27d22add1c5e8a5f9"},
+    {file = "cachetools-8.0.3.tar.gz", hash = "sha256:79245d0d90464e29355f13658cd769e57d98ed06242d3c6fbd71796ca0938ef9"},
 ]
 
 [[package]]
